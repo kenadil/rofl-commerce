@@ -1,0 +1,55 @@
+.commerce-form {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../design/background/battlefield.jpeg");
+  background-size: cover;
+  color: #fff;
+  &-title {
+    font-size: 2.25rem;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 36px;
+  }
+
+  &-subtitle {
+    font-size: 1.25rem;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+  }
+
+  &-button {
+    margin-top: 48px;
+    text-align: center;
+    button {
+      background: linear-gradient(154deg, #fd470e 100%, #f01c5b 0%);
+      color: #fff;
+      padding: 16px 32px;
+      font-size: 1.25rem;
+    }
+  }
+}
+
+.form-request {
+  padding: 48px 0;
+  display: flex;
+  flex-direction: column;
+  & > .form-request-textfield {
+    width: 50%;
+    margin: 0 auto !important;
+  }
+
+  & .css-nmluci-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: #808080;
+    font-size: 1.75rem;
+  }
+  & .css-r5in8e-MuiInputBase-root-MuiInput-root::after {
+    border-bottom-color: #808080;
+  }
+
+  & .css-1o3an4k-MuiInputBase-input-MuiInput-input {
+    padding-top: 35px;
+    color: #fff;
+    font-size: 1.25rem;
+  }
+}

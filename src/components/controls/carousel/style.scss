@@ -1,0 +1,30 @@
+.commerce-carousel-item {
+  & > * {
+    color: #fff;
+  }
+}
+
+.custom-dot-list-style {
+  position: relative !important;
+  margin-top: 16px !important;
+}
+
+.commerce-carousel-items {
+  width: 75%;
+  margin: 0 auto;
+  &-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .commerce-carousel-card {
+    flex-basis: 33.3%;
+  }
+}
+
+.commerce-section-title {
+  text-align: center;
+  color: #fff;
+  font-size: 4.25rem;
+}

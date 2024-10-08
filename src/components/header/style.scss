@@ -1,0 +1,39 @@
+.commerce-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../design/background/sosal.jpg") no-repeat center center/cover;
+  background-size: cover;
+  color: #fff;
+
+  &-info {
+    width: 50%;
+  }
+
+  &-title {
+    margin: 0;
+    font-size: 4.375rem;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+
+  &-subtitle {
+    margin: 0;
+    font-size: 2.25rem;
+  }
+
+  &-button {
+    margin-top: 24px;
+
+    & a {
+      color: #fff;
+      background: linear-gradient(133deg, #5c32f6 0%, #a239eb 100%);
+      font-size: 1.25rem;
+      text-transform: none;
+      padding: 16px 32px;
+
+      transition: 0.3s ease-in-out;
+      &:hover {
+        background: linear-gradient(133deg, #5c32f6 0%, #5c32f6 100%);
+      }
+    }
+  }
+}
